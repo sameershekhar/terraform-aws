@@ -1,0 +1,12 @@
+# Secrets and local environment
+.env
+
+# Terraform state (may contain secrets)
+*.tfstate
+*.tfstate.*
+
+# Terraform local working directories and provider binaries
+.terraform/
+
+# Crash logs
+crash.log*
